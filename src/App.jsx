@@ -2,6 +2,8 @@ import "./App.css";
 import Register from "./Register";
 import Login from "./Login";
 import CardList from "./CardList";
+import styles from "./App.module.css";
+import { CustomButton } from "./CustomButton";
 
 function App() {
 
@@ -11,9 +13,9 @@ function App() {
 
   return (
     <>
-    <h1 className="title">Mi primer Contador</h1>
-    <h2>Contador {counter}</h2>
-    <button>Contador de clics</button>
+    <h1 className={styles.title}>Mi primer Contador</h1>
+    <h2 className={styles.contador}>Contador {counter}</h2>
+    <CustomButton>Contador de clics</CustomButton>
     <CardList/>
     </>
   );

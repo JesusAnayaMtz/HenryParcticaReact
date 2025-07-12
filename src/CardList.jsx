@@ -1,14 +1,14 @@
 import Card from "./Card";
+import styles from "./CardList.module.css";
 
 const CardList = () => {
   return (
-    <>
-    <h1>Mi Primera App</h1>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-    </>
+      <div className={styles.container}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
   );
 };
 
