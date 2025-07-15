@@ -1,4 +1,4 @@
-import styles, { styled } from "styled-components"
+import { styled } from "styled-components"
 
 export const CustomButton = styled.button`
     color: black;
@@ -12,3 +12,4 @@ export const CustomButton = styled.button`
     background-color: black;
     }
 `
+
